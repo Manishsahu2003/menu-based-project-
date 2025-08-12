@@ -1359,7 +1359,7 @@ elif selected == "Portfolio Redirector":
 elif selected == "CloudGateway":
     st.header("CloudGateway API Testing")
     
-    api_url = st.text_input("API Endpoint", value="https://vhayqcg1ec.execute-api.ap-south-1.amazonaws.com/nothing/man")
+    api_url = st.text_input("API Endpoint", value="")
     method = st.selectbox("HTTP Method", ["GET", "POST", "PUT", "DELETE"])
     
     if st.button("Test API"):
